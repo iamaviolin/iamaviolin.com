@@ -7,17 +7,21 @@ import { LiveSoundRoute } from "./routes/live-sound";
 import { MusicRoute } from "./routes/music";
 
 import "./app.css";
+import { SiteNav } from "./components/SiteNav";
 
 export function App() {
   return (
     <>
-      <Switch>
-        <Route path="/" component={HomeRoute} />
-        <Route path="/about" component={AboutRoute} />
-        <Route path="/contact" component={ContactRoute} />
-        <Route path="/live-sound" component={LiveSoundRoute} />
-        <Route path="/music" component={MusicRoute} />
-      </Switch>
+      <SiteNav />
+      <main>
+        <Switch>
+          <Route path="/" component={HomeRoute} />
+          <Route path="/about" component={AboutRoute} />
+          <Route path="/contact" component={ContactRoute} />
+          <Route path="/live-sound" component={LiveSoundRoute} />
+          <Route path="/music" component={MusicRoute} />
+        </Switch>
+      </main>
     </>
   );
 }
