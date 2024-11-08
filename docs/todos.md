@@ -1,0 +1,2 @@
+- [ ] social media meta tags
+- [ ] site icon
