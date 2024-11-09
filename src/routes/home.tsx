@@ -33,9 +33,9 @@ export const HomeRoute = () => (
       />
     </nav>
     <footer>
-      <Link href="https://linkedin.com" target="_blank">
+      <a href="https://linkedin.com" target="_blank">
         linkedin or something
-      </Link>
+      </a>
     </footer>
   </div>
 );
