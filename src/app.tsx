@@ -1,13 +1,14 @@
 import { Route, Switch } from "wouter-preact";
 
+import { SiteNav } from "./components/SiteNav";
+
 import { AboutRoute } from "./routes/about";
 import { ContactRoute } from "./routes/contact";
 import { HomeRoute } from "./routes/home";
 import { LiveSoundRoute } from "./routes/live-sound";
 import { MusicRoute } from "./routes/music";
 
-import "./app.css";
-import { SiteNav } from "./components/SiteNav";
+import "./app.scss";
 
 export function App() {
   return (
@@ -22,6 +23,12 @@ export function App() {
           <Route path="/music" component={MusicRoute} />
         </Switch>
       </main>
+      <aside>
+        <p>
+          Site by <a href="https://sk.synth.kitchen">Rain Rudnick</a>
+        </p>
+        <p>&copy; Kathleen Chen 2024</p>
+      </aside>
     </>
   );
 }

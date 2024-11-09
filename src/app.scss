@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Funnel Sans", sans-serif;
+}
+
+body,
+#app {
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#app > nav {
+  background-color: #000;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  margin: 0 1rem;
+}
+
+main {
+  border: 1px solid #fff;
+  margin: 2rem 2rem 0;
+  height: calc(100vh - 4rem);
+}
+
+div.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: calc(100vh - 4rem);
+}
+
+div.title {
+  text-align: center;
+}
+
+div.title > h1 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+nav.links {
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+      "about    livesound"
+      "contact  music";
+    width: 100%;
+
+    li {
+      padding: 0.5rem;
+
+      a {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        & > span {
+          text-decoration: underline;
+        }
+      }
+
+      &.about {
+        grid-area: about;
+        border-top: 1px solid #fff;
+        border-right: 0.5px solid #fff;
+        border-bottom: 0.5px solid #fff;
+
+        &:hover {
+          background-color: #ffff75;
+        }
+
+        a {
+          color: #ffff75;
+        }
+      }
+
+      &.contact {
+        grid-area: contact;
+        border-top: 0.5px solid #fff;
+        border-right: 0.5px solid #fff;
+        border-bottom: 1px solid #fff;
+
+        &:hover {
+          background-color: orange;
+        }
+
+        a {
+          color: orange;
+        }
+      }
+
+      &.live-sound {
+        grid-area: livesound;
+        border-top: 1px solid #fff;
+        border-left: 0.5px solid #fff;
+        border-bottom: 0.5px solid #fff;
+
+        &:hover {
+          background-color: #75a56b;
+        }
+
+        a {
+          color: #75a56b;
+        }
+      }
+
+      &.music {
+        grid-area: music;
+        border-top: 0.5px solid #fff;
+        border-left: 0.5px solid #fff;
+        border-bottom: 1px solid #fff;
+
+        &:hover {
+          background-color: #fa9292;
+        }
+
+        a {
+          color: #fa9292;
+
+          span {
+            right: 0;
+          }
+        }
+      }
+
+      &.live-sound,
+      &.music {
+        text-align: right;
+      }
+
+      &.contact a,
+      &.music a {
+        position: relative;
+      }
+      
+      &.contact a span,
+      &.music a span {
+        position: absolute;
+        bottom: 0;
+      }
+
+      &:hover > a {
+        color: #000;
+      }
+    }
+  }
+}
+
+nav img#profile {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  max-width: 45vh;
+}
+
+div.home-wrapper footer {
+  text-align: center;
+}
+
+aside {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  overflow: hidden;
+  margin: 0 1rem;
+
+  p {
+    margin: 0.1rem 0 0;
+  }
+}
