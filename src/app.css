@@ -51,6 +51,8 @@ nav.links ul {
   margin: 0;
   padding: 0;
   display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
   grid-template-areas:
     "about    livesound"
     "contact  music";
