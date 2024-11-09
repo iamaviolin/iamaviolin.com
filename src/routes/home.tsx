@@ -9,18 +9,18 @@ export const HomeRoute = () => (
     </div>
     <nav className="links">
       <ul>
-        <li>
+        <li className="about">
           <Link href="/about">about</Link>
         </li>
-        <li>
+        <li className="contact">
           <Link href="/contact">
             <span>contact</span>
           </Link>
         </li>
-        <li>
+        <li className="live-sound">
           <Link href="/live-sound">live sound</Link>
         </li>
-        <li>
+        <li className="music">
           <Link href="/music">
             <span>music</span>
           </Link>

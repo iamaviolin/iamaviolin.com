@@ -70,31 +70,39 @@ nav ul li a {
   height: 100%;
 }
 
-nav ul li:nth-child(1) {
-  grid-area: about-start;
+nav ul li.about {
+  grid-area: about;
 }
 
-nav ul li:nth-child(2) {
-  grid-area: contact-start;
+nav ul li.contact {
+  grid-area: contact;
 }
 
-nav ul li:nth-child(3),
-nav ul li:nth-child(4) {
+nav ul li.live-sound {
+  grid-area: live-sound;
+}
+
+nav ul li.music {
+  grid-area: music;
+}
+
+nav ul li.live-sound,
+nav ul li.music {
   text-align: right;
 }
 
-nav ul li:nth-child(2) a,
-nav ul li:nth-child(4) a {
+nav ul li.contact a,
+nav ul li.music a {
   position: relative;
 }
 
-nav ul li:nth-child(2) a span,
-nav ul li:nth-child(4) a span {
+nav ul li.contact a span,
+nav ul li.music a span {
   position: absolute;
   bottom: 0;
 }
 
-nav ul li:nth-child(4) a span {
+nav ul li.music a span {
   right: 0;
 }
 
