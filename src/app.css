@@ -37,6 +37,7 @@ div.title > h1 {
 }
 
 nav.links {
+  position: relative;
   flex-grow: 1;
   display: flex;
 }
@@ -88,6 +89,15 @@ nav ul li:nth-child(4) a span {
 
 nav ul li:nth-child(4) a span {
   right: 0;
+}
+
+nav img#profile {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  max-width: 45vh;
 }
 
 div.home-wrapper footer {

@@ -1,5 +1,7 @@
 import { Link } from "wouter-preact";
 
+import profile from "../assets/profile.png";
+
 export const HomeRoute = () => (
   <div className="home-wrapper">
     <div className="title">
@@ -24,6 +26,11 @@ export const HomeRoute = () => (
           </Link>
         </li>
       </ul>
+      <img
+        id="profile"
+        src={profile}
+        alt="Kathleen Chen working front of house, looking quite cheerful!"
+      />
     </nav>
     <footer>
       <Link href="https://linkedin.com" target="_blank">
