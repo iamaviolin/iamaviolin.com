@@ -26,20 +26,20 @@ body,
   display: flex;
   align-items: center;
   position: fixed;
-  margin: 0 1rem;
+  margin: env(safe-area-inset-top) 1rem env(safe-area-inset-bottom);
 }
 
 main {
   border: 1px solid #fff;
-  margin: 2rem 2rem 0;
-  height: calc(100vh - 4rem);
+  margin: calc(2rem + env(safe-area-inset-top)) 2rem 0;
+  height: calc(100vh - (4rem + env(safe-area-inset-top) + env(safe-area-inset-bottom)));
 }
 
 div.home-wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: calc(100vh - 4rem);
+  min-height: calc(100vh - 4rem - env(safe-area-inset-top));
 }
 
 div.title {
@@ -178,6 +178,7 @@ nav img#profile {
   transform: translate(-50%, -50%);
   width: 50vw;
   max-width: 45vh;
+  pointer-events: none;
 }
 
 div.home-wrapper footer {
