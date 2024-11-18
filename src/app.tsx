@@ -9,6 +9,18 @@ import { LiveSoundRoute } from "./routes/live-sound";
 import { MusicRoute } from "./routes/music";
 
 import "./app.scss";
+import "./assets/fonts/avenir/AvenirLTStd-Black.otf";
+import "./assets/fonts/avenir/AvenirLTStd-BlackOblique.otf";
+import "./assets/fonts/avenir/AvenirLTStd-Book.otf";
+import "./assets/fonts/avenir/AvenirLTStd-BookOblique.otf";
+import "./assets/fonts/avenir/AvenirLTStd-Heavy.otf";
+import "./assets/fonts/avenir/AvenirLTStd-HeavyOblique.otf";
+import "./assets/fonts/avenir/AvenirLTStd-Light.otf";
+import "./assets/fonts/avenir/AvenirLTStd-LightOblique.otf";
+import "./assets/fonts/avenir/AvenirLTStd-Medium.otf";
+import "./assets/fonts/avenir/AvenirLTStd-MediumOblique.otf";
+import "./assets/fonts/avenir/AvenirLTStd-Oblique.otf";
+import "./assets/fonts/avenir/AvenirLTStd-Roman.otf";
 
 export function App() {
   return (
