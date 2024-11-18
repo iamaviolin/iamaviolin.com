@@ -1,6 +1,7 @@
 import { Link } from "wouter-preact";
 
-import profile from "../assets/profile.png";
+import heroPng from "../assets/hero.png";
+import heroWebp from "../assets/hero.webp";
 
 export const HomeRoute = () => (
   <div className="home-wrapper">
@@ -26,11 +27,13 @@ export const HomeRoute = () => (
           </Link>
         </li>
       </ul>
-      <img
-        id="profile"
-        src={profile}
-        alt="Kathleen Chen working front of house, looking quite cheerful!"
-      />
+      <picture id="profile">
+        <source type="image/webp" srcset={heroWebp} />
+        <img
+          src={heroPng}
+          alt="Kathleen Chen working front of house, looking quite cheerful!"
+        />
+      </picture>
     </nav>
     <footer>
       <a href="https://linkedin.com" target="_blank">
