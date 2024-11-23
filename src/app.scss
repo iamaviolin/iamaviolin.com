@@ -4,28 +4,6 @@
   url('./assets/fonts/avenir/AvenirLTStd-Roman.otf') 
 }
 
-@function strip-unit($value) {
-  @return $value / ($value * 0 + 1);
-}
-
-@mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
-  @each $property in $properties {
-    #{$property}: $min-value;
-  }
-
-  @media screen and (min-width: $min-vw) {
-    @each $property in $properties {
-      #{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * (100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)});
-    }
-  }
-
-  @media screen and (min-width: $max-vw) {
-    @each $property in $properties {
-      #{$property}: $max-value;
-    }
-  }
-}
-
 html,
 body {
   margin: 0;
@@ -37,230 +15,71 @@ body,
 #app {
   background-color: #000;
   color: #fff;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
-}
-
-#app > nav {
-  background-color: #000;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 2rem;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  margin: env(safe-area-inset-top) 1rem env(safe-area-inset-bottom);
-}
-
-main {
-  border: 1px solid #fff;
-  margin: calc(1rem + env(safe-area-inset-top)) 1rem 0;
-  height: calc(100vh - (3rem + env(safe-area-inset-top) + env(safe-area-inset-bottom)));
-}
-
-section.home-wrapper {
+  min-height: calc(100vh - env(safe-area-inset-top) - env(safe-area-inset-bottom));
   display: flex;
   flex-direction: column;
-  width: 100%;
-  min-height: calc(100vh - 4rem - env(safe-area-inset-top));
+  justify-content: space-between;
+}
 
-  footer {
-    text-align: center;
+#app {
+  &> nav {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0 0;
+    margin: env(safe-area-inset-top) 1rem env(safe-area-inset-bottom);
   }
-}
 
-div.title {
-  text-align: center;
-  font-size: calc(0.75rem + 1.5vw);
-}
+  &> main {
+    margin: 1rem 1rem 0;
 
-div.title > h1 {
-  font-weight: 400;
-  margin: 0.5rem 0 0;
-  text-transform: lowercase;
-}
+    h1 {
+      margin: 0;
+      padding-top: 0.5rem;
+      text-align: center;
+      border: 1px solid white;
+    }
 
-nav.links {
-  position: relative;
-  flex-grow: 1;
-  display: flex;
+    &> h1 {
+      margin-top: -0.5rem;
+    }
+  }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 10% 40% 40% 10%;
-    grid-template-rows: 10% 40% 40% 10%;
-    // grid-template-areas:
-    //   "about    about     livesound   livesound"
-    //   "about    profile   profile     livesound"
-    //   "contact  profile   profile     music"
-    //   "contact  contact   music       music";
-    width: 100%;
+  &> footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    overflow: hidden;
+    margin: 0 1rem;
 
-    li {
-      padding: 0.5rem;
-
-      a {
-        display: block;
-        width: 100%;
-        height: 100%;
-        @include fluid-type(font-size, 600px, 1200px, 24px, 56px);
-
-        & span {
-          text-decoration: underline;
-        }
-
-        .extra {
-          position: absolute;
-          top: -10000px;
-          left: -10000px;
-          pointer-events: none;
-          font-size: 75%;
-        }
-
-        &:hover .extra {
-          position: inherit;
-          top: 0;
-          left: 0;
-        }
-      }
-
-      &.about {
-        grid-row-start: 1;
-        grid-row-end: 3;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        border-top: 1px solid #fff;
-        border-right: 0.5px solid #fff;
-        border-bottom: 0.5px solid #fff;
-
-        &:hover {
-          background-color: #ffff75;
-        }
-
-        a {
-          color: #ffff75;
-        }
-      }
-
-      &.contact {
-        grid-row-start: 3;
-        grid-row-end: 5;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        border-top: 0.5px solid #fff;
-        border-right: 0.5px solid #fff;
-        border-bottom: 1px solid #fff;
-
-        &:hover {
-          background-color: orange;
-        }
-
-        a {
-          color: orange;
-        }
-      }
-
-      &.live-sound {
-        grid-row-start: 1;
-        grid-row-end: 3;
-        grid-column-start: 3;
-        grid-column-end: 5;
-        border-top: 1px solid #fff;
-        border-left: 0.5px solid #fff;
-        border-bottom: 0.5px solid #fff;
-
-        &:hover {
-          background-color: #75a56b;
-        }
-
-        a {
-          color: #75a56b;
-        }
-      }
-
-      &.music {
-        grid-row-start: 3;
-        grid-row-end: 5;
-        grid-column-start: 3;
-        grid-column-end: 5;
-        border-top: 0.5px solid #fff;
-        border-left: 0.5px solid #fff;
-        border-bottom: 1px solid #fff;
-
-        &:hover {
-          background-color: #fa9292;
-        }
-
-        a {
-          color: #fa9292;
-
-          span {
-            right: 0;
-          }
-        }
-      }
-
-      &.live-sound,
-      &.music {
-        text-align: right;
-      }
-
-      &.contact a,
-      &.music a {
-        position: relative;
-      }
-      
-      &.contact a span,
-      &.music a span {
-        position: absolute;
-        bottom: 0;
-      }
-
-      &:hover > a {
-        color: #000;
-      }
-
-      &.profile-wrapper {
-        pointer-events: none;
-
-        grid-row-start: 2;
-        grid-row-end: 4;
-        grid-column-start: 2;
-        grid-column-end: 4;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        picture {
-          z-index: 1;
-          shape-outside: padding-box;
-          max-width: 45vh;
-          max-height: 75vh;
-        }
-      }
+    p {
+      margin: 0.1rem 0 0;
     }
   }
 }
 
-aside {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 2rem;
-  overflow: hidden;
-  margin: 0 1rem;
+details {
+  margin: 1rem 0;
 
-  p {
-    margin: 0.1rem 0 0;
+  summary {
+    font-size: 1.5rem;
+    border: 1px solid white;
+    padding: 0 0.5rem;
+  }
+
+  &[open] > summary::marker {
+    color: #ffff75;
+  }
+
+  span > picture {
+    float: right;
+    margin: 1rem 0 1rem 1rem;
+    max-width: 50%;
+    width: 300px;
   }
 }

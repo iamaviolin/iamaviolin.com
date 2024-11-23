@@ -1,0 +1,8 @@
+main.about {
+  min-height: calc(100vh - 5rem - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+}
+
+picture.about-hero {
+  width: 300px;
+  margin: 1rem auto;
+}

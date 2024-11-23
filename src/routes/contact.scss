@@ -1,0 +1,48 @@
+main.contact {
+  min-height: calc(100vh - 5rem - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+}
+
+picture.contact-hero {
+  width: 300px;
+  margin: 1rem auto;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+
+  .contact-hero:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    picture {
+      width: 250px;
+      margin: 1rem auto 0;
+    }
+  }
+
+  ul {
+    list-style-image: url(/link.svg);
+
+    li {
+      &::marker {
+        display: flex;
+      }
+
+      a {
+        position: relative;
+        bottom: 0.125rem;
+
+        img {
+          width: 1rem;
+          height: 1rem;
+          display: inline;
+        }
+      }
+    }
+  }
+
+}

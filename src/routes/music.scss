@@ -1,0 +1,7 @@
+main.music {
+  min-height: calc(100vh - 5rem - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+
+  summary::marker {
+    color: #fa9292;
+  }
+}

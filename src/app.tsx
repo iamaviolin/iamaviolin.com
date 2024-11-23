@@ -15,21 +15,19 @@ export function App() {
   return (
     <>
       <SiteNav />
-      <main>
-        <Switch>
-          <Route path="/" component={HomeRoute} />
-          <Route path="/about" component={AboutRoute} />
-          <Route path="/contact" component={ContactRoute} />
-          <Route path="/live-sound" component={LiveSoundRoute} />
-          <Route path="/music" component={MusicRoute} />
-        </Switch>
-      </main>
-      <aside>
+      <Switch>
+        <Route path="/" component={HomeRoute} />
+        <Route path="/about" component={AboutRoute} />
+        <Route path="/contact" component={ContactRoute} />
+        <Route path="/live-sound" component={LiveSoundRoute} />
+        <Route path="/music" component={MusicRoute} />
+      </Switch>
+      <footer>
         <p>
           Site by <a href="https://sk.synth.kitchen">Rain Rudnick</a>
         </p>
         <p>&copy; Kathleen Chen 2024</p>
-      </aside>
+      </footer>
     </>
   );
 }
