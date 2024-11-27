@@ -75,20 +75,6 @@ section.home-wrapper {
           & span {
             text-decoration: underline;
           }
-  
-          .extra {
-            position: absolute;
-            top: -10000px;
-            left: -10000px;
-            pointer-events: none;
-            font-size: 75%;
-          }
-  
-          &:hover .extra {
-            position: inherit;
-            top: 0;
-            left: 0;
-          }
         }
   
         &.about {

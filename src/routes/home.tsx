@@ -22,20 +22,11 @@ export const HomeRoute = () => (
             </Link>
           </li>
           <li className="live-sound">
-            <Link href="/live-sound">
-              live sound
-              <span className="extra">
-                <br />
-                <i>front&nbsp;of&nbsp;house, monitors</i>
-              </span>
-            </Link>
+            <Link href="/live-sound">live sound</Link>
           </li>
           <li className="music">
             <Link href="/music">
               <span>music</span>
-              <span className="extra">
-                <i>why am I a violin?</i>
-              </span>
             </Link>
           </li>
           <li className="profile-wrapper">
