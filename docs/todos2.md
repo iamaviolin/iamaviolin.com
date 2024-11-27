@@ -1,0 +1,4 @@
+- [ ] about: photo on the left, text on the right
+- [ ] live sound/music: bigger text for the toggles, fix the spacing issue with images
+- [ ] home link feels a little jammed
+- [ ] contact: new icons for the main links, photo on the right, xlr icons instead of chain links, (email linkedin instagram: use icons + text, make more important in information hierarchy)
