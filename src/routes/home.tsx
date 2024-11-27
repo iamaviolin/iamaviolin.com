@@ -49,11 +49,11 @@ export const HomeRoute = () => (
           </li>
         </ul>
       </nav>
-      <footer>
+      {/* <footer>
         <a href="https://linkedin.com" target="_blank">
           linkedin or something
         </a>
-      </footer>
+      </footer> */}
     </section>
   </main>
 );

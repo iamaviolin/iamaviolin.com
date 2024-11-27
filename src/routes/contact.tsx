@@ -1,6 +1,5 @@
 import contactPng from "../assets/contact.png";
 import contactWebp from "../assets/contact.webp";
-// import link from "../assets/link.svg";
 
 import "./contact.scss";
 
