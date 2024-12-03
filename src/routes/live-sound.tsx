@@ -19,7 +19,7 @@ export const LiveSoundRoute = () => (
           <source type="image/webp" srcset={fohMonitorWebp} />
           <img
             src={fohMonitorPng}
-            alt="Kathleen Chen working front of house, looking quite cheerful!"
+            alt="Front of house at Rock im Park, Germany"
           />
         </picture>
         <p>
@@ -52,7 +52,7 @@ export const LiveSoundRoute = () => (
           <source type="image/webp" srcset={systemDesignWebp} />
           <img
             src={systemDesignPng}
-            alt="Kathleen Chen working front of house, looking quite cheerful!"
+            alt="d&b SL system seminar in Sindelfingen"
           />
         </picture>
         <p>
@@ -71,10 +71,7 @@ export const LiveSoundRoute = () => (
       <span>
         <picture>
           <source type="image/webp" srcset={educationWebp} />
-          <img
-            src={educationPng}
-            alt="Kathleen Chen working front of house, looking quite cheerful!"
-          />
+          <img src={educationPng} alt="Soundsysters PA workshop in Berlin" />
         </picture>
         <p>
           I try to stay in the loop of teaching and actively learning as much as

@@ -21,7 +21,7 @@ export const MusicRoute = () => (
           <source type="image/webp" srcset={violinWebp} />
           <img
             src={violinPng}
-            alt="Kathleen Chen working front of house, looking quite cheerful!"
+            alt="Kathleen playing in a piano trio at Revolution Cafe, San Francisco"
           />
         </picture>
 
@@ -77,7 +77,7 @@ export const MusicRoute = () => (
           frameBorder="0"
         ></iframe>
         <p>
-          I used to work for a indie game startup in Berlin, developing AR
+          I used to work for an indie game startup in Berlin, developing AR
           mobile game concepts and audio. Nowadays game development is a hobby,
           and I occasionally participate in local game jams such as Berlin's
           yearly GGJ.
@@ -91,7 +91,7 @@ export const MusicRoute = () => (
           <source type="image/webp" srcset={recordingWebp} />
           <img
             src={recordingPng}
-            alt="Kathleen Chen working front of house, looking quite cheerful!"
+            alt="Recording for Alejandro Espinosa's band at Amazon Studios in Shibuya"
           />
         </picture>
         <p>
