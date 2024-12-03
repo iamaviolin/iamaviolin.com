@@ -27,15 +27,20 @@ body,
 
 #app {
   &> nav {
+    width: 100vw;
     background-color: #000;
     display: flex;
     align-items: center;
-    padding: 1rem 0 0.5rem;
-    margin: env(safe-area-inset-top) 1rem env(safe-area-inset-bottom);
+    padding: 1rem 1rem 0.5rem;
+    margin: env(safe-area-inset-top) auto env(safe-area-inset-bottom);
+    max-width: 1400px;
   }
 
   &> main {
-    margin: 1rem 1rem 0;
+    width: 100vw;
+    margin: 1rem auto 0;
+    max-width: 1400px;
+    padding: 0 1rem;
 
     h1 {
       font-size: 2.5rem;
@@ -69,7 +74,10 @@ body,
     align-items: center;
     height: 2rem;
     overflow: hidden;
-    margin: 0 1rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100vw;
+    max-width: 1400px;
 
     p {
       margin: 0.1rem 0 0;
