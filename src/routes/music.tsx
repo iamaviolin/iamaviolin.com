@@ -9,7 +9,7 @@ export const MusicRoute = () => (
   <main className="music page">
     <h1 style={{ color: "#fa9292" }}>music</h1>
 
-    <p>
+    <p className="tagline">
       I've lived in quite a few places, but music has been a constant in my life
       since 1994!
     </p>

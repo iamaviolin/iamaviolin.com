@@ -1,4 +1,8 @@
 main.music {
+  p.tagline {
+    font-size: calc(1rem + 0.25vw);
+  }
+
   summary::marker {
     color: #fa9292;
   }
