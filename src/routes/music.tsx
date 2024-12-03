@@ -6,7 +6,7 @@ import violinPng from "../assets/violin.png";
 import violinWebp from "../assets/violin.webp";
 
 export const MusicRoute = () => (
-  <main className="music">
+  <main className="music page">
     <h1 style={{ color: "#fa9292" }}>music</h1>
 
     <p>

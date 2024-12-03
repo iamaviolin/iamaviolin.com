@@ -4,7 +4,7 @@ import contactWebp from "../assets/contact.webp";
 import "./contact.scss";
 
 export const ContactRoute = () => (
-  <main className="contact">
+  <main className="contact page">
     <h1 style={{ color: "orange" }}>contact</h1>
 
     <section className="contact-wrapper">

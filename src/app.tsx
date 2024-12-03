@@ -23,8 +23,33 @@ export function App() {
         <Route path="/music" component={MusicRoute} />
       </Switch>
       <footer>
-        <p>
-          Site by <a href="https://sk.synth.kitchen">Rain Rudnick</a>
+        <p className="credits-mobile">
+          🧑🏻‍💻{" "}
+          <a href="https://sk.synth.kitchen" target="_blank">
+            Rain Rudnick
+          </a>{" "}
+          🤍{" "}
+          <a
+            href="https://danhemerlein.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dan Hemerlein
+          </a>
+        </p>
+        <p className="credits-desktop">
+          Website adapted by{" "}
+          <a href="https://sk.synth.kitchen" target="_blank">
+            Rain Rudnick
+          </a>{" "}
+          from{" "}
+          <a
+            href="https://danhemerlein.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dan Hemerlein
+          </a>
         </p>
         <p>&copy; Kathleen Chen 2024</p>
       </footer>

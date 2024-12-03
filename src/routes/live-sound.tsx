@@ -9,7 +9,7 @@ import systemDesignPng from "../assets/system-design.png";
 import systemDesignWebp from "../assets/system-design.webp";
 
 export const LiveSoundRoute = () => (
-  <main className="live-sound">
+  <main className="live-sound page">
     <h1 style={{ color: "#75a56b" }}>live sound</h1>
 
     <details>
