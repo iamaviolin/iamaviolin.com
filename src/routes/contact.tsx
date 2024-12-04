@@ -26,7 +26,7 @@ export const ContactRoute = () => (
         <article>
           <h2 className="visually-hidden">links</h2>
 
-          <ul>
+          <ul className="links">
             <li>
               <a href="mailto:iamaviolin@gmail.com" target="_blank">
                 <img src={email} role="presentation" />
