@@ -4,6 +4,7 @@ import contactWebp from "../assets/contact.webp";
 import email from "../assets/email.svg";
 import linkedin from "../assets/linkedin.svg";
 import instagram from "../assets/instagram.svg";
+import xlr from "../assets/xlr.svg";
 
 import "./contact.scss";
 
@@ -51,19 +52,22 @@ export const ContactRoute = () => (
         <article>
           <h2>organizations</h2>
 
-          <ul>
+          <ul className="orgs">
             <li>
               <a href="https://soundsysters.com/" target="_blank">
+                <img src={xlr} role="presentation" />
                 soundsysters
               </a>
             </li>
             <li>
               <a href="https://womeninlivemusic.eu/" target="_blank">
+                <img src={xlr} role="presentation" />
                 women in live music
               </a>
             </li>
             <li>
               <a href="https://soundgirls.org/" target="_blank">
+                <img src={xlr} role="presentation" />
                 soundgirls
               </a>
             </li>
