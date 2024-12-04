@@ -1,6 +1,10 @@
 import contactPng from "../assets/contact.png";
 import contactWebp from "../assets/contact.webp";
 
+import email from "../assets/email.svg";
+import linkedin from "../assets/linkedin.svg";
+import instagram from "../assets/instagram.svg";
+
 import "./contact.scss";
 
 export const ContactRoute = () => (
@@ -18,21 +22,26 @@ export const ContactRoute = () => (
         </picture>
       </div>
 
-      <div>
+      <div className="links">
         <article>
-          <h2>links</h2>
+          <h2 className="visually-hidden">links</h2>
 
           <ul>
             <li>
-              <a href="mailto:iamaviolin@gmail.com">email</a>
+              <a href="mailto:iamaviolin@gmail.com">
+                <img src={email} role="presentation" />
+                email
+              </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/rosemead/" target="_blank">
+                <img src={linkedin} role="presentation" />
                 linkedin
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/audio.kat/" target="_blank">
+                <img src={instagram} role="presentation" />
                 instagram
               </a>
             </li>

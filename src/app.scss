@@ -25,6 +25,12 @@ body,
   justify-content: space-between;
 }
 
+.visually-hidden {
+  position: absolute;
+  top: -10000px;
+  left: -10000px;
+}
+
 #app {
   &> nav {
     width: 100vw;
