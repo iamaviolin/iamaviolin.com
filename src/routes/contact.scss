@@ -3,6 +3,10 @@
   flex-direction: row-reverse;
   justify-content: space-between;
 
+  @media screen and (max-width: 849px) {
+    flex-direction: column;
+  }
+
   @media screen and (min-width: 600px) {
     & > div {
       padding: 2rem;
@@ -15,7 +19,7 @@
     margin: 1rem auto;
     padding: 0 0 0 1rem;
     
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 850px) {
       padding: 2rem;
       width: 500px;
       max-width: 50%;
@@ -38,9 +42,7 @@
         width: 100%;
         padding: 0;
 
-        @media screen and (min-width: 850px) {
-          font-size: calc(100% + 0.5vw);
-        }
+        font-size: calc(100% + 1vw);
     
         li {
           &::marker {

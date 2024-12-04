@@ -28,7 +28,7 @@ export const ContactRoute = () => (
 
           <ul>
             <li>
-              <a href="mailto:iamaviolin@gmail.com">
+              <a href="mailto:iamaviolin@gmail.com" target="_blank">
                 <img src={email} role="presentation" />
                 email
               </a>
