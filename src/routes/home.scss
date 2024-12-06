@@ -56,11 +56,6 @@ section.home-wrapper {
       display: grid;
       grid-template-columns: 20% 30% 30% 20%;
       grid-template-rows: 20% 30% 30% 20%;
-      // grid-template-areas:
-      //   "about    about     livesound   livesound"
-      //   "about    profile   profile     livesound"
-      //   "contact  profile   profile     music"
-      //   "contact  contact   music       music";
       width: 100%;
   
       li {
