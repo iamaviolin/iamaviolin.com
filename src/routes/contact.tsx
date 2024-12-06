@@ -49,7 +49,7 @@ export const ContactRoute = () => (
           </ul>
         </article>
 
-        <article>
+        <article className="orgs">
           <h2>organizations</h2>
 
           <ul className="orgs">

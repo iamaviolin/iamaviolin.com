@@ -64,7 +64,15 @@
     }
   }
 
+  article.orgs {
+    h2 {
+      margin-top: 4rem;
+      color: #898989;
+    }
+  }
+
   ul.orgs {
+
     img[role=presentation] {
       right: 2rem;
       top: 0.25rem;
