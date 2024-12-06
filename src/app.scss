@@ -40,6 +40,14 @@ body,
     padding: 1rem 1rem 0.5rem;
     margin: env(safe-area-inset-top) auto env(safe-area-inset-bottom);
     max-width: 1400px;
+
+    img {
+      position: relative;
+      top: 0.25rem;
+      display: inline;
+      height: 1.25rem;
+      margin-right: 0.5rem;
+    }
   }
 
   &> main {
@@ -92,7 +100,7 @@ body,
 }
 
 main.page {
-  min-height: calc(100vh - 6rem - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  min-height: calc(100vh - 6.5rem - env(safe-area-inset-top) - env(safe-area-inset-bottom))
 }
 
 details {
