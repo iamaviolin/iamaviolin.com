@@ -23,19 +23,19 @@ export const LiveSoundRoute = () => (
           />
         </picture>
         <p>
-          I freelance as a FOH/Mon engineer, sometimes handling RF coordination
-          or Ableton playback as well. Enabling artists to realize their sonic
+          I freelance as a FOH/Mon engineer, often handling RF coordination or
+          Ableton playback as well. Empowering artists to realize their sonic
           vision and feel comfortable onstage is my passion.
         </p>
         <p>
           In recent years I've toured internationally with Büşra Kayıkçı,
           KAFVKA, Alice Phoebe Lou, C’est Karma, Edo Saiya, Salomea, and
           Tuvaband. I've also mixed stages in Rock am Ring/Rock im Park,
-          Highfield Festival, Elbphilharmonie Hamburg, Vienna Konzerthaus, among
-          others.
+          Highfield Festival, Elbphilharmonie Hamburg, Vienna Konzerthaus,
+          Meguro Persimmon Hall, among others.
         </p>
         <p>
-          My work ethic towards expression and detail is largely influenced by
+          My work ethic towards detail and expression is largely influenced by
           my{" "}
           <Link href="/music" style={{ color: "#fa9292" }}>
             musical background
@@ -74,14 +74,19 @@ export const LiveSoundRoute = () => (
           <img src={educationPng} alt="Soundsysters PA workshop in Berlin" />
         </picture>
         <p>
-          I try to stay in the loop of teaching and actively learning as much as
-          possible.
-        </p>
-        <p>
           With the feminist sound crew, Soundsysters, I've taught PA, Recording,
           and DJ workshops. I've also facilitated skillsharing sessions for our
-          crew to exchange knowledge and get hands-on practice with mixing.
+          crew to exchange practical industry knowledge and get hands-on
+          practice with mixing.
         </p>
+        <p>So far I've led workshops in the following topics:</p>
+        <ul>
+          <li>PA setup and signal flow</li>
+          <li>Live mixing techniques</li>
+          <li>Recording & Music production</li>
+          <li>DJing</li>
+          <li>Career skills for FLINTA*</li>
+        </ul>
       </span>
     </details>
     <br />
