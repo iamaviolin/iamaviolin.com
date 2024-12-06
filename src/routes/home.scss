@@ -68,7 +68,8 @@ section.home-wrapper {
           text-decoration: none;
           @include fluid-type(font-size, 600px, 1200px, 24px, 56px);
 
-          &:hover {
+          &:hover,
+          &:hover > span {
             text-decoration: underline;
           }
         }
