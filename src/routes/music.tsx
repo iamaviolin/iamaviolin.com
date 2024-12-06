@@ -96,7 +96,8 @@ export const MusicRoute = () => (
         </picture>
         <p>
           Before working in live sound, I interned at Vox Ton Studios and
-          studied recording/music production at Berklee Valencia.
+          studied recording/music production at Berklee Valencia. I've assisted
+          in sessions with Beirut, Hyukoh, Hauschka, and Sophie Hunger.
         </p>
       </span>
     </details>
