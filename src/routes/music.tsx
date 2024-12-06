@@ -69,13 +69,15 @@ export const MusicRoute = () => (
     <details>
       <summary>game audio</summary>
       <span>
-        <iframe
-          title="Trailer for the iOS game Farmstead"
-          src="https://drive.google.com/file/d/1a-Re8d2pRKtTPFL1W0ZgA2WiT-zGEvX1/preview"
-          width="640"
-          height="480"
-          frameBorder="0"
-        ></iframe>
+        <div className="iframe-container">
+          <iframe
+            title="Trailer for the iOS game Farmstead"
+            src="https://drive.google.com/file/d/1a-Re8d2pRKtTPFL1W0ZgA2WiT-zGEvX1/preview"
+            width="640"
+            height="480"
+            frameBorder="0"
+          ></iframe>
+        </div>
         <p>
           I used to work for an indie game startup in Berlin, developing AR
           mobile game concepts and audio. Nowadays game development is a hobby,

@@ -127,10 +127,30 @@ details {
     }
 
     & > picture,
-    & > iframe {
+    & > .iframe-container {
       float: right;
       margin: 1rem 0 1rem 1rem;
       max-width: 50%;
+    }
+
+    & > .iframe-container {
+      position: relative;
+      overflow: hidden;
+      width: 400px;
+
+      &::after {
+        display: block;
+        content: "";
+        padding-top: 56.25%;
+      }
+
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 }
