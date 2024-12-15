@@ -1,4 +1,4 @@
-import { Route, Switch } from "wouter-preact";
+import { Redirect, Route, Switch } from "wouter-preact";
 
 import { SiteNav } from "./components/SiteNav";
 
@@ -21,6 +21,7 @@ export function App() {
         <Route path="/contact" component={ContactRoute} />
         <Route path="/live-sound" component={LiveSoundRoute} />
         <Route path="/music" component={MusicRoute} />
+        <Route path="/home" component={() => <Redirect to="/" />} />
       </Switch>
       <footer>
         <p className="credits-mobile">
