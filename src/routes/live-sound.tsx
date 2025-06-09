@@ -28,12 +28,15 @@ export const LiveSoundRoute = () => (
           vision and feel comfortable onstage is my passion.
         </p>
         <p>
-          In recent years I've toured internationally with Büşra Kayıkçı,
-          KAFVKA, Alice Phoebe Lou, C’est Karma, Edo Saiya, Salomea, and
-          Tuvaband. In 2025, I mixed FOH for a circus arena tour (up to 11,000 
+          In recent years I've toured internationally with artists including Büşra 
+          Kayıkçı, KAFVKA, Alice Phoebe Lou, C’est Karma, Edo Saiya, Salomea, and
+          Tuvaband. In 2025, I mixed FOH for a circus arena tour (up to 12,000 
           cap.) across 22 cities with a 360° PA. I've also mixed stages in 
           Rock am Ring/Rock im Park, Highfield Festival, Elbphilharmonie 
-          Hamburg, Vienna Konzerthaus, Meguro Persimmon Hall, among others.
+          Hamburg, Vienna Konzerthaus, Meguro Persimmon Hall, among others. 
+          With my experience troubleshooting as a tech specialist at Ableton, I've 
+          started doing playback engineering and Autotune operation for bands like 
+          Blumengarten.
         </p>
         <p>
           My work ethic towards detail and expression is largely influenced by
