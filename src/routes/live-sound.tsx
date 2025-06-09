@@ -30,9 +30,10 @@ export const LiveSoundRoute = () => (
         <p>
           In recent years I've toured internationally with Büşra Kayıkçı,
           KAFVKA, Alice Phoebe Lou, C’est Karma, Edo Saiya, Salomea, and
-          Tuvaband. I've also mixed stages in Rock am Ring/Rock im Park,
-          Highfield Festival, Elbphilharmonie Hamburg, Vienna Konzerthaus,
-          Meguro Persimmon Hall, among others.
+          Tuvaband. In 2025, I mixed FOH for a circus arena tour (up to 11,000 
+          cap.) across 22 cities with a 360° PA. I've also mixed stages in 
+          Rock am Ring/Rock im Park, Highfield Festival, Elbphilharmonie 
+          Hamburg, Vienna Konzerthaus, Meguro Persimmon Hall, among others.
         </p>
         <p>
           My work ethic towards detail and expression is largely influenced by
