@@ -26,10 +26,10 @@ export const AboutRoute = () => (
           Though I’ve tried on various hats in the music industry, I'm currently
           focused on mixing concerts/events and helping performers sound their
           best onstage. In recent years I’ve had the pleasure of touring
-          internationally as a FOH/Monitor engineer, as well as troubleshooting
-          technical issues at Ableton. Previously, I studied violin performance
-          and audio production, and graduated from Berklee College of Music in
-          2017.
+          internationally as a FOH/Monitor engineer and playback engineer. 
+          Otherwise, I am troubleshooting technical issues at Ableton. Previously, 
+          I studied violin performance and audio production, and graduated from 
+          Berklee College of Music in 2017.
         </p>
         <p>
           Representation in event technology has some ways to go. I've been
