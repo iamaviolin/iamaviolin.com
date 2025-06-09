@@ -19,7 +19,7 @@ export const LiveSoundRoute = () => (
           <source type="image/webp" srcset={fohMonitorWebp} />
           <img
             src={fohMonitorPng}
-            alt="Front of house at Rock im Park, Germany"
+            alt="Front of house at EWE Arena, Germany"
           />
         </picture>
         <p>
