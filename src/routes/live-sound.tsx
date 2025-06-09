@@ -81,7 +81,9 @@ export const LiveSoundRoute = () => (
           With the feminist sound crew, Soundsysters, I've taught PA, Recording,
           and DJ workshops. I've also facilitated skillsharing sessions for our
           crew to exchange practical industry knowledge and get hands-on
-          practice with mixing.
+          practice with mixing. In festival settings, I've guided teams
+          of sound technicians and stagehands to learn the ropes of PA and stage
+          management on the job.
         </p>
         <p>So far I've led workshops in the following topics:</p>
         <ul>
