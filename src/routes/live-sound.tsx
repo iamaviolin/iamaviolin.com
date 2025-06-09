@@ -36,9 +36,9 @@ export const LiveSoundRoute = () => (
           Hamburg, Vienna Konzerthaus, Meguro Persimmon Hall, among others. 
           </p>
           <p>
-          With my experience troubleshooting as a tech specialist at Ableton, I've 
-          started doing playback engineering and Autotune operation for bands like 
-          Blumengarten.
+          With my experience as a tech specialist at Ableton, I'm passionate about
+          Live in the context of playback engineering, and creating robust MIDI/plug-in
+          setups for bands like Blumengarten.
         </p>
         <p>
           My work ethic towards detail and expression is largely influenced by
