@@ -37,6 +37,10 @@ export const AboutRoute = () => (
           FLINTA* people interested in audio.
         </p>
 
+     <p style={{ textAlign: "center", color: "orange", fontSize: "125%" }}>
+          <Link href="https://www.l-acoustics.com/stories/women-in-pro-audio-kathleen-chen/">
+          check out my interview with L-Acoustics</Link>
+        
         <p style={{ textAlign: "center", color: "orange", fontSize: "125%" }}>
           <Link href="/contact">say hello</Link>
         </p>
