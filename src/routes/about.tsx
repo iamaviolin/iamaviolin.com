@@ -38,10 +38,14 @@ export const AboutRoute = () => (
           working with local sound crew Soundsysters to teach and support
           FLINTA* people interested in audio.
         </p>
-     <p style={{ textAlign: "center", color: "orange", fontSize: "125%" }}>
-          <Link href="https://www.l-acoustics.com/stories/women-in-pro-audio-kathleen-chen/">
-          check out my interview with L-Acoustics</Link>
-          </p>        
+         <p style={{ textAlign: "center", color: "orange", fontSize: "125%" }}>
+        <a 
+          href="https://www.l-acoustics.com/stories/women-in-pro-audio-kathleen-chen/" 
+        target="_blank" 
+        rel="noopener noreferrer">
+        check out my interview with L-Acoustics
+        </a>
+        </p>      
         <p style={{ textAlign: "center", color: "orange", fontSize: "125%" }}>
           <Link href="/contact">say hello</Link>
         </p>
@@ -50,3 +54,7 @@ export const AboutRoute = () => (
     <br />
   </main>
 );
+<a
+            href="https://www.youtube.com/watch?v=KFL8RUuTa8Y&t=408s"
+            target="_blank"
+          >
