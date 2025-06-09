@@ -34,6 +34,8 @@ export const LiveSoundRoute = () => (
           cap.) across 22 cities with a 360° PA. I've also mixed stages in 
           Rock am Ring/Rock im Park, Highfield Festival, Elbphilharmonie 
           Hamburg, Vienna Konzerthaus, Meguro Persimmon Hall, among others. 
+          </p>
+          <p>
           With my experience troubleshooting as a tech specialist at Ableton, I've 
           started doing playback engineering and Autotune operation for bands like 
           Blumengarten.
