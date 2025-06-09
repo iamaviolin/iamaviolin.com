@@ -13,7 +13,7 @@ export const AboutRoute = () => (
         <source type="image/webp" srcset={aboutWebp} />
         <img
           src={aboutPng}
-          alt="Kathleen Chen working front of house, looking quite cheerful!"
+          alt="Kathleen Chen working monitors, looking quite cheerful!"
         />
       </picture>
       <div>
@@ -54,7 +54,3 @@ export const AboutRoute = () => (
     <br />
   </main>
 );
-<a
-            href="https://www.youtube.com/watch?v=KFL8RUuTa8Y&t=408s"
-            target="_blank"
-          >
