@@ -18,7 +18,7 @@ export const ContactRoute = () => (
           <source type="image/webp" srcset={contactWebp} />
           <img
             src={contactPng}
-            alt="Soundcheck for C'est Karma, from front-of-house"
+            alt="FOH at Meguro Persimmon Hall"
           />
         </picture>
       </div>
